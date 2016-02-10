@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>moonRise</title>
+		<title>Astronauta</title>
 		<link href="http://cdnjs.cloudflare.com/ajax/libs/uikit/1.2.0/css/uikit.gradient.min.css" rel="stylesheet" type="text/css">
 		<link href="style.css" rel="stylesheet" type="text/css">
 	</head>
@@ -13,8 +13,8 @@
 		<div class="uk-container uk-container-center">
 			<div class="uk-grid">
 				<div id="navigation" class="uk-width-medium-1-4">
-					<h1 class="nav-header">moonRise</h1>
-					<a class="nav-header" href="https://moonrisestudio.itch.io">moonRiseStudio</a>
+					<h1 class="nav-header">Astronauta</h1>
+					<a class="nav-header" href="http://katohistories.com">of KaTo HISTORIES</a>
 
 					<ul class="uk-nav uk-nav-side">
 						<li><a href="#factsheet">Factsheet</a></li>
@@ -25,10 +25,9 @@
 						<li><a href="#screenshots">Screenshots</a></li>
 						<li><a href="#logo">Logo & Icon</a></li>
 						<li><a href="#awards">Awards & Recognition</a></li>
-                        <!--
 						<li><a href="#artigle">Selected Articles</a></li>
 						<li><a href="#adcional">Additional Links</a></li>
-                        -->
+						<li><a href="#aboutk">About Kato Histories</a></li>
 						<li><a href="#credits">Team</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
@@ -42,37 +41,29 @@
 							<h2 id="factsheet">Factsheet</h2>
 							<p>
 								<strong>Developer:</strong><br/>
-								<a href="https://moonrisestudio.itch.io">moonRise Studio</a><br/>
-								Based in SÃ£o Paulo, Brazil
+								<a href="http://katohistories.com">KaTo HISTORIES</a><br/>
+								Based in São Paulo, Brazil
 							</p>
 							<p>
-								<strong>Founding date:</strong><br/>
-								 February 10,2016
+								<strong>Release date:</strong><br/>
+								 In development
+							</p>
+							<p>
+								<strong>Platforms:</strong><br/>
+								<a href="http://kato.itch.io/astronauta">PC</a><br/>
 							</p>
 							<p>
 								<strong>Website:</strong><br/>
-								<a href="https://moonrisestudio.itch.io">moonRise Studio</a><br/>
-							</p>
-							<p>
-								<strong>Press / Business Contact::</strong><br/>
-								<a href="mailto:studiomoonrise@gmail.com">studiomoonrise@gmail.com</a>
+								<a href="http://katohistories.com">katohistories.com</a>
 							</p>      
 							<p>
 								<strong>Social:</strong><br/>
-								<a href="https://www.facebook.com/Moon-Rise-Studio-501848496663408/">Facebook</a><br/>
-                                <a href="https://twitter.com/moonrisestudio">Twitter</a><br/>
-                                <a href="http://moonrisestudio.tumblr.com">Blog</a><br/>
+								<a href="https://www.facebook.com/Astronautagame">facebook.com/Astronautagame</a><br/>
 							</p>
 							<p>
-								<strong>Releases:</strong><br/>
-								n/a
+								<strong>Regular Price:</strong><br/>
+								Real 
 							</p>
-                            <p>
-								<strong>Address:</strong><br/>
-								Rua Tenente Coronel Antonio Braga 490 |
-                                SÃ£o Paulo | SP | Brasil <br>
-                                04376-040
-							</p>                            
 						</div>
 
 					<!-- Conteudo-->
@@ -81,31 +72,33 @@
 							<!-- Description start -->
 								<h2 id="description">Description</h2>
 								<p>
-									A litle studio development indie games, SÃ£o Paulo - Brazil in love at making games. Is a company of one man, Kato is the artist and game designer as well as programmer.
+									Astronauta é um jogo de tiro em primeira pessoa e terror, atualmente em desenvolvimento para PC (Win, Mac & Linux).
+									Pegando inspiração de jogos old scholl de tiro com tema classido de alienigenas, ele vai te levar em uma base espacial 
+									te contando uma historia irreal, cheia de inimigos grotescos, solidão  e paranoia
 			
 								</p>
 
 							<!-- History start -->
 								<h2 id="history">History</h2>
 								<p>	
-									n/a
+									Você acorda em uma imensa escuridão com o som de seu rádio bipando. Uma voz o chama no meio daquela solidão, sem ter como responder você a faz como amiga. Seguindo por meio de corredores de metal apertados sem lembrar o proprio nome e por que está ali, procurando por saida ou uma fuga daquela loucura, encontrasse encurralado junto de monstros grotescos e mortais. Em uma base espacial, com um estilo 3D retro, você deve ajudar seu astronauta a achar uma saida, sabendo lidar com a falta de balas de bateria e ar.
 								</p>
 
-<!-- Features start -->
-    <h2 id="features">Projects</h2>
-        <ul>
+							<!-- Features start -->
+								<h2 id="features">Features</h2>
+								<ul>
+									<li>Uma jobalidade simples e basica em um jogo de terror e sobrevivencia</li>
+									<li>Cuide da bateria da sua lanterna e ar enquanto mata monstros em uma ambiente escuro </li>
+									<li>Finais diferentes dependendo somente da sua jogatina</li>
+									<li>Windows, Mac e Linux versões com suporte Gamepad</li>
+								</ul>
+								<hr>
 
-            <li>n/a</li>
-
-        </ul>
-    <hr>
-
-<!-- Trailers-->
-<h2 id="trailers">Videos</h2>
-    <p>There are currently no trailers available for moonRise. Check back later for more or 
-        <a href="mailto:studiomoonrise@gmail.com">contact us</a> for specific requests!
-    </p>
-<hr>
+					<!-- Trailers-->
+						<h2 id="trailers">Videos</h2>
+						<p>There are currently no trailers available for Astronauta. Check back later for more or 
+							<a href="#contact">contact us</a> for specific requests!</p>
+						<hr>
 
 					<!-- ScreamShots-->
 						<!--
@@ -131,7 +124,7 @@
 								<div class="uk-grid images">
 									<div class="uk-width-medium-1-2">
 										<a href="images/logo.png"><img src="images/logo.png" alt="logo" /></a>
-										<a href="images/logosmall.png"><img src="images/logosmall.png" alt="header" /></a>
+										<a href="images/astronauta_header.png"><img src="images/astronauta_header.png" alt="header" /></a>
 									</div>
 								</div>
 							<hr>
@@ -139,38 +132,51 @@
 					<!-- Awards-->
 						<h2 id="awards">Awards & Recognition</h2>
 							<p>
-							moonRise has not received any awards or recognitions yet. Please check back later to see if things change.
+							Astronauta has not received any awards or recognitions yet. Please check back later to see if things change.
 							</p>
 						<ul>
 						</ul>
 						<hr>
-				
-<!-- Selected Articles
-<h2 id="artigle">Selected Articles</h2>
-    <ul>
-        <li>
-            Astronaut has no articles. Please check back later to see if things change.
-        </li>
-    </ul>
-<hr>-->
-
-<!-- Adicional links
-<h2 id="adcional">Additional Links</h2>	
-    <p>	
-        <strong>Pre order on itch.io</strong>
-        <br>
-        <a href="http://kato.itch.io/astronauta">kato.itch.io/astronauta</a>	
-    </p>
-<hr>-->
-
-				
 					
-					<!-- InformaÃ§Ãµes gerais-->
+					<!-- Selected Articles-->
+						<h2 id="artigle">Selected Articles</h2>
+							<ul>
+								<li>
+									Astronaut has no articles. Please check back later to see if things change.
+								</li>
+							</ul>
+						<hr>
+
+					<!-- Adicional links-->
+						<h2 id="adcional">Additional Links</h2>	
+							<p>	
+								<strong>Pre order on itch.io</strong>
+							<br>
+								<a href="http://kato.itch.io/astronauta">kato.itch.io/astronauta</a>	
+							</p>
+						<hr>
+				
+					<!-- About Kato HIstories -->
+						<h2 id="aboutk">About Kato Histories</h2>
+							<p>
+								Um pequeno estudio de desenvolvimento de jogos indie, de São Paulo - Brasil apaixonado em fazer jogos.
+								Por hora é uma empresa de um homem só, Kato é o artista e game designer além de programador. 
+								<br>
+								Com uma enorme paixão por está arte venho fazendo inumeros joguinhos e publicando eles como Drops, tanto para poder expressar minha arte quanto para crescer mais neste mundo.
+								<br>
+								Em 2014 comecei um projeto e estou prestes de terminar. Astronauta, um jogo que traz algumas coisas antigas e novas em sua exencia. 
+							<p>
+								<strong>More information</strong>
+							<br>
+								More information on Kato Histories,our logo & relevant media are available <a href="http://katohistories.com/press/index.html">here</a>	
+							</p>
+						<hr>
+					<!-- Informações gerais-->
 						<div class="uk-grid">
 							<div class="uk-width-medium-1-2">
 								<h2 id="credits">Team & Repeating Collaborators</h2>
 								<p>
-									<strong>KaTo</strong><br/>
+									<strong>KaTo HISTORIES</strong><br/>
 									<a href="https://www.facebook.com/profile.php?id=100007851977228&fref=ts"> Artist and Game Designer/ Programmer</a>
 								</p>
 							</div>
@@ -179,23 +185,19 @@
 								<h2 id="contact">Contact</h2>
 								<p>
 									<strong>Inquiries</strong><br/>
-									<a href="mailto:studiomoonrise@gmail.com">studiomoonrise@gmail.com</a>
+									<a href="mailto:contato@katohistories.com">contato@katohistories.com</a>
 								</p>
 								<p>
 									<strong>Twitter</strong><br/>
-									<a href="https://twitter.com/moonrisestudio">twitter.com/moonrisestudio</a>
-								</p>
-                                <p>
-									<strong>Blog</strong><br/>
-									<a href="https://www.tumblr.com/dashboard">tumblr.com/dashboard</a>
+									<a href="https://twitter.com/KaTo_HISTORIES">twitter.com/KaTo_HISTORIES</a>
 								</p>
 								<p>
 									<strong>Facebook</strong><br/>
-									<a href="https://www.facebook.com/Moon-Rise-Studio-501848496663408/">facebook.com/moonRiseStudio</a>
+									<a href="https://www.facebook.com/Kato.histories">facebook.com/Kato.histories</a>
 								</p>
 								<p>
 									<strong>Web</strong><br/>
-									<a href="https://moonrisestudio.itch.io">moonrisestudio.itch.io</a>
+									<a href="http://katohistories.com">katohistories.com</a>
 								</p>
 							</div>
 						</div>
