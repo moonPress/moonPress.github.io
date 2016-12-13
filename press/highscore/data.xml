@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>HighScore</title>
+	<release-date>18 Agust, 2016</release-date>
+	<website>http://www.highscore.tk/</website>
+	<press-can-request-copy>TRUE</press-can-request-copy>
+
+	<platforms>
+		<platform>
+			<name>PC / Mac / Linux</name>
+			<link>http://www.highscore.tk/</link>
+		</platform>
+		<platform>
+			<name>Steam Grenlight</name>
+			<link>http://www.steampowered.com/</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency>USD</currency>
+			<value>$14.99</value>
+		</price>
+	</prices>
+
+	<description>
+	Highscore is an arcade game set in arcades houses the years 80/90, the player takes part in a top competition highscorer where those who have their name on the maximum number of machines wins.
+	</description>
+	
+	<history>
+	    An arcade house called "Arcade" is every year a big competition where all machines are free so that competitors try to achieve the maximum highscores of the machines.
+        A child known as AAA was several times winner of the competition, leaving your name in most games, preventing its competitors beat your score. 
+        Until one day she vanished, along with most of the arcade houses... 
+        After years of arcade Arcade house reopened, and a new competition began. 
+	</history>
+
+	<features>
+		<feature>Amazing 3D and 2D super detailed art.</feature>
+		<feature>Online score.</feature>
+		<feature>Gameplay based on waves</feature>
+		<feature>Competitive local multiplayer.</feature>
+	</features>
+	
+	<trailers>
+		<trailer>
+			<name>Trailer</name>
+			<youtube>https://www.youtube.com/watch?v=WvWHq8mrHJQ</youtube>
+		</trailer>
+		<trailer>
+			<name>Gameplay Video</name>
+			<youtube>https://www.youtube.com/watch?v=ywncxbPGDRY</youtube>
+		</trailer>
+	</trailers>
+	
+	<awards>
+		<award>
+			<description>We have no award yet</description>
+			<info>come back another day</info>
+		</award>
+	</awards>
+	
+	<quotes>
+		<quote>
+			<description>We have no article yet</description>
+			<!--<name>Person Name</name>
+			<website>Website</website>
+			<link>http://</link>-->
+		</quote>
+	</quotes>
+	
+	<additionals>
+		<additional>
+			<title>Original Soundtrack</title>
+			<description>Available for free from</description>
+			<link>https://soundcloud.com/moonrise-studios</link>
+		</additional>
+	</additionals>
+	
+	<credits>
+		<credit>
+			<person>Kato</person>
+			<role>Artist, Game Design, Programmer</role>
+		</credit>
+	</credits>
+</game>
