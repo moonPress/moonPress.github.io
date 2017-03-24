@@ -6,12 +6,43 @@
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="back.css">
         <script type="text/javascript" src="https://static.itch.io/api.js"></script>
-        <script type="text/javascript">
-          Itch.attachBuyButton(document.getElementById("buy_button"), {
+        <script>
+
+            var buyButton = document.getElementById("buy_button");
+            
+            Itch.attachBuyButton(document.getElementById("buy_button"), {
             // replace the following with the correct information about your game
-            user: "moonrisestudio",
-            game: "souls-of-the-labyrinth"
-          });
+                user: "moonrisestudio",
+                game: "souls-of-the-labyrinth"
+            });
+
+            Itch.getGameData({
+                user: "moonrisestudio",
+                game: "souls-of-the-labyrinth",
+                //secret: "UxjRAUVpW1vEywL1jh4YS46AUM",
+                onComplete: function(game) {
+                    var keyField = document.getElementById("key_quantity");
+                    var priceField = document.getElementById("game_price");
+                    var reward = game.rewards && game.rewards[0];
+                    if( reward ) {
+                        if( keyField ) {
+                            keyField.innerText = reward.amount_remaining + "/" + reward.amount;
+                        }
+                        if( priceField ) {
+                            priceField.innerText = reward.price.substr(0,3);
+                        }
+                    }
+                    else {
+                        if( keyField ) {
+                            keyField.innerText = "ERROR";
+                        }
+                        /*if( priceField ) {
+                            priceField.innerText = "ERROR";
+                        }*/
+                    }
+                }
+            });
+            
         </script>
     </head>
 
@@ -39,6 +70,7 @@
             <ul class="purchase">
                 <li><h1>$2.99</h1></li>
                 <li><button id="buy_button"><b>BUY NOW!</b></button></li>
+                
             </ul>
             
             <p>
@@ -54,7 +86,7 @@
             
                 
             <ul class="features">
-                <li>•  Play soul of the labyrinth before anyone else</li>
+                <li>• Play soul of the labyrinth before anyone else</li>
                 <li>• New content and gameplay every month</li>
                 <li>• Join the private developer forums on itch.io</li>
                 <li>• Get every announcement first</li>
