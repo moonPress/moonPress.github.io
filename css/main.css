@@ -1,44 +1,50 @@
+ @font-face { font-family: Arcade; src: url('ARCADEPI.TTF'); } 
+
 body{
-    width: 100%;
-    background-color: #0f1019;
-    background-image: url(images/backqq.png);
-    color: #fff;
-    font-size: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    background-color: #000;
     padding: 0px;
     margin: 0px;
-    font-family:monospace;
-    text-shadow: 5px 5px 3px #000000;
+    color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: monospace;
 }
-
-h1,h2,h3 {
+h1,h2,h3,h4 {
     text-align: center;
-    font-size: 260%;
+    font-size: 2.25em;
+    padding: 0px;
+    margin: 0px;
 }
-
 a {
     text-decoration: none;
     color: #fff;
     margin-right: 5px;
 }
-
+ul{
+    margin: 0, auto;
+    
+}
+li{
+    list-style-type:none;
+    text-decoration:none;
+    display: inline-block;
+    margin: 0, auto;
+}
+section {
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    padding: 0px;
+    margin: 0px; 
+}
 header{
     z-index: 5;
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: 10px;
+    right: 10px;
     height: 30px;
     text-shadow: none;
-}
-header img{
-    object-position: center;
-    width: 12px;
-    margin: auto;
-    min-width: 45px;
-}
-header img:hover{
-    background-image: url(images/image1.png);
 }
 header li {
     display: inline-block;
@@ -50,85 +56,57 @@ header a:hover{
     text-decoration: overline;
 }
 
-.logo{
-    z-index: 5;
-    position: fixed;
-    float: left;
-    top: 0;
-    left 10px;
-    width: 120px;
-}
-.logo:hover{
-    width: 140px;
+.background{
+    background-image: url(images/back__.png);
+    background-attachment: fixed;
+    background-position:top center;
+    background-size: 800px;
+    background-repeat:repeat;
+    min-height: 1024px;
 }
 
-section {
-    padding: 0px;
-    margin: 0px;
-}
-
-#main {
-    text-transform:capitalize;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 150px;
-}
-
-#main h1{
-    margin-top: 100px;
-    //margin-bottom: 300px;
-}
-
-#main img{
-    width: 100%;
-    //min-width: 300px;
-    max-width: 640px;
+.logo img {    
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 30%;
+    min-width: 252px;
+    margin-bottom: 250px;
 }
 
 #apresentation{
-    //background-image:url(images/lone.png);
-    //background-attachment:fixed;
-    //background-position: top center;
-    //background-repeat: no-repeat;
-    width: auto;
-    height: auto;
-    //text-shadow: 1px 1px 3px #000000;
+    margin-top: -800px;
 }
-#apresentation section{
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 120%;
+
+.content{
+    background-color: #0f1019;
+    padding: 20px;
+}
+
+.social{
+    margin: 0px auto;
+    margin-bottom: 80px;
+    width: 120px;
     text-align: center;
-    
 }
-#apresentation div{
-    margin-right: auto;
-    margin-left: auto;
-    width: auto;
-    //min-width: 320px;
-    max-width: 640px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    //background-color: #0c0d14;
-    //background-color: #0f1019;
-    //border: 1px solid #3e3e3e;
-    //box-shadow: 3px 3px 10px #000;
-    //color: #eacbd4;
+.social img{
+    object-position: center;
+    width: 32px;
+    margin: auto;
+    min-width: 45px;
+}
+.social img:hover{
+    background-image: url(images/image1.png);
 }
 
 #games{
-    background-image: url(images/back__.png);
+    margin: 0px;
     margin-right: auto;
     margin-left: auto;
     width: auto;
     height: auto;
-    min-height: 800px;
 }
-#games h1{
-    border: 1px solid #070707;
-    background-color: #0f1019;
-    padding: 25px;
+.games h1{
+    margin-bottom: 30px;
 }
 .game-images{
     margin-right: auto;
@@ -136,6 +114,10 @@ section {
     padding: 20px;
     max-width: 1055px;
     width: auto;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
 }
 .game-images article{
     margin: auto;
@@ -149,26 +131,33 @@ section {
     text-align: center;
 }
 
+@media screen and (max-width: 480px) {
+    .game-images{
+        margin-right: auto;
+        margin-left: auto;
+        padding: 20px;
+        max-width: 1055px;
+        width: auto;
+        display: -webkit-inline-block;; /* Safari */
+        -webkit-align-items: center; /* Safari 7.0+ */
+        display: inline-block;
+        align-items: center;
+    }
+}
+
+.circle img{
+    max-width: 150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+}
+
 footer{
     background-color: #0f1019;
-    border: 1px solid #070707;
+    margin-top: -20px;
     min-height: 100px;
     text-align: center;
 }
 footer a {
     padding: 20px;
-}
-
-.foreground{
-    background-image: url(images/foreground.png);
-    background-size:cover;
-    background-position: center;
-    background-clip: inherit;
-    background-attachment: fixed;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 1400px;
-    height: 1200px;
-    margin-right: 20px;
 }

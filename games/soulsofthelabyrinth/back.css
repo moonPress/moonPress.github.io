@@ -1,0 +1,19 @@
+body{
+    background-color: #374548;
+    background-image: url("#");
+    background-attachment: fixed;
+    background-position:top center;
+    color: #93a7ac;
+}
+a {
+    text-decoration: none;
+    color: #93a7ac;
+    margin-right: 5px;
+}
+.background{
+    background-image: url(images/header.png);
+    background-attachment: fixed;
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
