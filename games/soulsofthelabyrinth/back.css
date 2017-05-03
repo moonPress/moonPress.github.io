@@ -1,14 +1,9 @@
 body{
-<<<<<<< HEAD
     background-color: #8db9f5;
-=======
-    background-color: #374548;
->>>>>>> master
     background-image: url("#");
     background-attachment: fixed;
     background-position:top center;
     color: #93a7ac;
-<<<<<<< HEAD
     overflow-x: hidden;
     overflow-y: scroll;
     perspective: 1px;
@@ -23,12 +18,6 @@ body{
 a {
     text-decoration: none;
     color: #ffffff;
-=======
-}
-a {
-    text-decoration: none;
-    color: #93a7ac;
->>>>>>> master
     margin-right: 5px;
 }
 .background{
@@ -36,7 +25,6 @@ a {
     background-attachment: fixed;
     background-position:top center;
     background-repeat:no-repeat;
-<<<<<<< HEAD
     background-size:cover;
     z-index: -100;
 }
@@ -137,7 +125,4 @@ footer img{
 }
 @media all and (max-width: 500px) {
 .vid-info .acronym { display: none; }
-=======
-    background-size: cover;
->>>>>>> master
 }
