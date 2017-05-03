@@ -6,11 +6,53 @@
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="back.css">
         <script type="text/javascript" src="https://static.itch.io/api.js"></script>
+<<<<<<< HEAD
+=======
+        <script>
+
+            var buyButton = document.getElementById("buy_button");
+            
+            Itch.attachBuyButton(document.getElementById("buy_button"), {
+            // replace the following with the correct information about your game
+                user: "moonrisestudio",
+                game: "souls-of-the-labyrinth"
+            });
+
+            Itch.getGameData({
+                user: "moonrisestudio",
+                game: "souls-of-the-labyrinth",
+                //secret: "UxjRAUVpW1vEywL1jh4YS46AUM",
+                onComplete: function(game) {
+                    var keyField = document.getElementById("key_quantity");
+                    var priceField = document.getElementById("game_price");
+                    var reward = game.rewards && game.rewards[0];
+                    if( reward ) {
+                        if( keyField ) {
+                            keyField.innerText = reward.amount_remaining + "/" + reward.amount;
+                        }
+                        if( priceField ) {
+                            priceField.innerText = reward.price.substr(0,3);
+                        }
+                    }
+                    else {
+                        if( keyField ) {
+                            keyField.innerText = "ERROR";
+                        }
+                        /*if( priceField ) {
+                            priceField.innerText = "ERROR";
+                        }*/
+                    }
+                }
+            });
+            
+        </script>
+>>>>>>> master
     </head>
 
     <body>
         
         <header>
+<<<<<<< HEAD
              <a href="http://moonrisestudio.tk/press/soulsoflabyrinth" ><h4> PressKit</h4></a>
         </header>
         
@@ -30,6 +72,15 @@
         <section id="apresentation">
             
             <!--
+=======
+             <a href="http://moonrisestudio.tk/press/sheet.php?p=highscore" ><h1> PressKit</h1></a>
+        </header>
+        
+        <div class="background"></div>
+        
+        <section id="apresentation">
+            
+>>>>>>> master
             <div class="logo">
                 <h1><img src="images/logo.png" alt="HighScore"></h1>
             </div>
@@ -37,16 +88,22 @@
             <section id="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/mW5blAi6XZw" frameborder="0" allowfullscreen></iframe>
             </section>
+<<<<<<< HEAD
             -->
             
         </section>
         
         <!--
+=======
+        </section>
+        
+>>>>>>> master
         <div id="info">
             
             <ul class="purchase">
                 <li><h1>$2.99</h1></li>
                 <li><button id="buy_button"><b>BUY NOW!</b></button></li>
+<<<<<<< HEAD
                 <script>
 
                     Itch.attachBuyButton(document.getElementById("buy_button"), {
@@ -56,6 +113,8 @@
                     });
 
                 </script>
+=======
+>>>>>>> master
                 
             </ul>
             
@@ -82,6 +141,7 @@
             If you have any questions at all, please don't hesitate to email <a href="#">studiomoonrise@gmail.com</a>!
             </p>
         </div>
+<<<<<<< HEAD
         -->
         
         <div id="body">
@@ -191,4 +251,90 @@
         
     </body>
     
+=======
+        
+        <div id="mailing-list">
+            <form>
+                
+            </form>
+        </div>
+        
+        <div class="screenshoot">
+            
+            <h1>ScreenShoots</h1>
+            
+            <ul class="imgContainer">
+                <li><img  src="images/s1.png"/></li>
+                <li><img  src="images/s2.png"/></li>
+                <li><img  src="images/s3.png"/></li>
+            </ul>
+        </div>
+        
+        <div id="quotes">
+            
+            <h1>"...É simplesmente incrivel o que conseguiram fazer com tão pouco tempo"</h1>
+                <p><b>joselito, <a href="#">link</a></b></p>
+            
+             
+        </div>
+        
+        <h1><img class="medioImg" src="images/moonLogo.png" alt="moonrisestudio"></h1>
+        
+        <div id="FAQ">
+            
+                <h1>FAQ</h1>
+            <div class="tag"></div>
+            <br>
+            
+            <h3>WHAT IS SOULS OF THE LABYRINTH?</h3>
+            <p>
+                infos here..... More info is available on the <a href="#">press kit</a>.
+            </p>
+
+            <h3>CAN I HAVE A THREE KEYS FOR FREE TODAY? THANKS!!</h3>
+            <p>
+                no. haha sorry that sounds mean I guess but like no. i still like you though!
+                
+            <br>
+                
+                You can <a href="#">sign up here if you want access to press review keys</a> when they become available, but there's no ETA on those. And as usual if you have any questions or concerns don't hesitate to <a href="#">contact us directly by email</a>, we're hella responsive!
+            </p>
+            
+            <h3>WHAT IS FIRST ACCESS?</h3>
+            <p>
+                First Access is our paid alpha program, which includes exclusive features like a private developer forum, access to constant updates, and the chance to help us make the end of the world even more interesting with your feedback. All made possible by <a href="https://itch.io/refinery">itch.io’s new Refinery toolset!</a>
+            </p>
+
+            <h3>SO. THE GAME IS BASICALLY FINISHED THEN?</h3>
+            <p>
+                No. No! Are you even reading these
+            </p>
+            
+            <h3>STEAM STEAM STEAM I WANT STEAMMMMM!!</h3>
+            <p>
+                Technically that is not a question. <a href="#">Just go here and click the thing</a>.
+            </p>
+
+            <h3>WHY IS SOULS OF THE LABYRINTH ONLY AVAILABLE ON ITCH.IO?</h3>
+            <p>
+                While we are planning on adding support for many more platforms and services in the future, right now itch.io is the only online store that can handle all of our First Access needs, including automated update deployment, limiting the number of keys that are available, related community features, and the APIs to support and share those things online and in-game. They've been a huge help in getting this program underway! WE LOVE ITCH.IO.
+            </p>
+            
+            <h3>WAIT WHAT THE HECK IS ITCH.IO</h3>
+            <p>
+               <a href="https://itch.io/">itch.io</a> is an open marketplace for independent digital creators with a focus on independent video games. It’s a platform that enables anyone to sell the content they've created. As a seller we're in charge of how it’s done: we set the price, we run sales, and we design our pages. It’s never necessary to get votes, likes, or follows to get our content approved, and we can make changes to how we distribute our work as frequently as we like. itch.io is also a collection of some of the most unique, interesting, and independent creations you'll find on the web. They're not your typical digital storefront!
+            </p>
+            
+            Some of the questions and answers came directly from <a href="http://overland-game.com/">overland hotpage</a>, thanks guys
+        </div>
+        
+        <footer>
+            moonRise studio 2017
+            <p>
+                <h1><img src="images/moonLogo.png" alt="moonrisestudio"></h1>
+            
+        </footer>
+        
+    </body>
+>>>>>>> master
 </html>
