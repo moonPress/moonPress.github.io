@@ -1,128 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <title>moonRise Studio</title>
-    <meta name="description" content="brazilian indie game studio">
-    <meta name="keywords" content="indie-game,game-studio,brazilian-game-studio,moonrise-studio">
-    <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
-    <script type="text/javascript"> 
-        jQuery.fn.toggleText = function(a,b) {
-        return   this.html(this.html().replace(new RegExp("("+a+"|"+b+")"),function(x){return(x==a)?b:a;}));
-        }
-
-        $(document).ready(function(){
-            $('.tgl').before('<span style="color: aqua;">...</span>');
-            $('.tgl').css('display', 'none')
-            $('span', '#apresentation').click(function() {
-                $(this).next().slideToggle('slow')
-                .siblings('.tgl:visible').slideToggle('fast');
-
-                $(this).toggleText('...','-o-')
-                .siblings('span').next('.tgl:visible').prev()
-                .toggleText('Revelar','Esconder')
-            });
-        })
-</script>
+        <title>moonRise Studio</title>
+        <meta name="description" content="brazilian indie game studio">
+        <meta name="keywords" content="indie-game,game-studio,brazilian-game-studio,moonrise-studio,moonrise,game brasileiro, desenvolvedora, dev, developer, game developer, indiegame, estudio de jogos, tell me you, moonRise, jogo brasileiro, gamedev brasil, brasilian game dev, desenvolvedora de jogos, moonrisestudio, moonriseStudio, moon rise studio">
+        <link rel="stylesheet" href="css/main.css">        
     </head>
-
+    
     <body>
-        <!-- trocar a mascara
-        <div class="foreground"> 
-         <p><img src="css/images/ft.png" style=" width: 5px;"></p>
-        </div>    -->
-        
         
         <header>
             <nav>
-                
                 <ul>
-                    <li><a href="#">press release</a></li>
-                    <li><a href="#games">games</a></li>
-                    <li><a href="https://www.facebook.com/StudiomoonRise/"><img src="css/images/facebook.png" alt="Facebook page"></a></li>
-                    <li><a href="https://twitter.com/moonrisestudio"><img src="css/images/twitter.png" alt="Twitter page"></a></li>
+                    <li><a href="http://moonrisestudio.tk/press.io/tag/press-release/">press release</a></li>
+                    <li>/</li>
+                    <li><a href="press/index.html">about</a></li>
                 </ul>            
             </nav>
         </header>
         
-        <section id="main">
-            <h1><img src="css/images/logo.png" alt="moonRise Studio"></h1>
-        </section>
+        <div class="background"></div>
+        
+        <section id="apresentation">
             
-        
-        <!--TEXTO DA EMPRESA-->
-        <section id="apresentation">            
-            <section>
-                <div>
-                    <h1> moonRise Studio </h1>
-                    <h4> More than games, new worlds! </h4>
-                    <p>
-                        A litle indie studio development indie games, São Paulo - Brazil in love at making games. Is a company of one man, Kato is the artist and game designer as well as programmer...
-                    <div class="tgl">
-                            MoonRise is a name that has a lot of sense to me, has to do with the solitude that the moon bears and mostly overlap the difficulties that once prevented you from doing what you wanted.
-                        <p>
-                            Since I began to create my gamejams games, I realized that I worked best alone, but even so I arranged a group ... even having great experiences and covering my knowledge none of them gave really sure.
-                        <p>
-                            I created the Kato Histories in 2013 with the idea of being a safe place that I would not let anyone touch that would not change, but I changed because of that had to move house.
-                        <p>
-                            Moonrise then appears as a new refuge not know how long will last.
-                        </p>
-                    </div>
-                </div>
-            </section>
-        </section>
-        
-         <!--IMAGENS DOS JOGOS-->
-        <section id="games">
-            <div>
-                <h1> Games </h1>
-                
-                    <div class="game-images">
-                        
-                        <article>
-                                <a href="games/Tell'meYou/index.html"><img src="css/images/teelme.png" alt="Tell'me You"></a>
-                                <p> Tell'me You</p>
-                        </article>
-
-                        <article>
-                                <a href="https://kato.itch.io/no-vacuum"><img src="css/images/vaccum.png" alt="No Vaccum"></a>
-                                <p>No Vaccum</p>
-                        </article>
-
-                        <article>
-                                <a href="https://moonrisestudio.itch.io/badbutons"><img src="css/images/bad.png" alt="Bad Buttons"></a>
-                                <p>Bad Buttons</p>
-                        </article>
-
-                        <!--<article>
-                                <a href="https://moonrisestudio.itch.io/highscore"><img src="css/images/high.png" alt="HighScore"></a>
-                                <p>HighScore</p>
-                        </article>
-                        
-                        <article>
-                                <a href="http://gamejolt.com/games/castle-of-paper/136349"><img src="css/images/paper.png" alt="Castle of paper"></a>
-                                <p>Castle of paper</p>
-                        </article>
-                        
-                        <article>
-                                <a href="https://moonrisestudio.itch.io/blastcubes"><img src="css/images/blast.png" alt="Blast Cubes"></a>
-                                <p>Blast Cubes</p>
-                        </article>-->
-                        
-                    </div>
+            <div class="logo">
+                    <h1><img src="css/images/logo.png" alt="HighScore"></h1>
             </div>
+            
+            <section class="content">
+                
+                <!--IMAGENS DOS JOGOS-->
+                <section id="games">
+                    <div>
+                        <div class="social">
+                            <a href="https://www.facebook.com/StudiomoonRise/"><img src="css/images/facebook.png" alt="Facebook page"></a>                        
+                            <a href="https://twitter.com/moonrisestudio"><img src="css/images/twitter.png" alt="Twitter page"></a>
+                        </div>
+                        <h1> Games to play </h1>
+                        <div class="game-images">
+                            <article>
+                                    <a href="games/Tell'meYou/index.html"><img src="css/images/teelme.png" alt="Tell'me You"></a>
+                                    <p> Tell'me You</p>
+                            </article>
+                            <article>
+                                    <a href="https://kato.itch.io/no-vacuum"><img src="css/images/vaccum.png" alt="No Vaccum"></a>
+                                    <p>No Vaccum</p>
+                            </article>
+                            <article>
+                                    <a href="https://moonrisestudio.itch.io/badbutons"><img src="css/images/bad.png" alt="Bad Buttons"></a>
+                                    <p>Bad Buttons</p>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </section>
         </section>
         
         <!-- Colocar label de deixar recados aqui embaixo-->
         <footer>
-            <script>
-            var text;            
             
-            </script>
-            <p>
-                <a href="press/index.html">press kit</a>
-            </p>
-        
+            <form>
+            
+            
+            </form>
+            
         </footer>
     </body>
 

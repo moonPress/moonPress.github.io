@@ -3,6 +3,8 @@
 body{
     background-color: #03010b;
     background-image: url(../../css/images/back__.png);
+    background-attachment: fixed;
+    background-position:top center;
     padding: 0px;
     margin: 0px;
     color: #fff;
@@ -10,31 +12,25 @@ body{
     margin-left: auto;
     font-family: monospace;
 }
-
 h1,h2,h3,h4 {
     text-align: center;
-    font-size: 160%;
     padding: 0px;
     margin: 0px;
 }
-
 a {
     text-decoration: none;
     color: #fff;
     margin-right: 5px;
 }
-
 ul{
     padding: 0px;
     margin-right: auto;
     margin-left: auto;
 }
-
 li{
     text-decoration: none;
     display: inline-block;
 }
-
 section{
     margin-top: 100px;
     margin-right: auto;
@@ -44,9 +40,38 @@ section{
     text-align: left;
     font-size: 20px;
 }
-
 a:hover{
     color:#ff8a93;
+}
+header{
+    z-index: 5;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    text-shadow: none;
+}
+@media screen and (max-width: 900px){
+    header{
+        z-index: 5;
+        margin: 0px auto;
+        position:absolute;
+        bottom: 10px;
+        text-align: center;
+        top: 0px;
+        right: 30%;
+        height: 30px;
+        text-shadow: none;
+    }
+}
+footer{
+    padding: 60px;
+    margin-top: 80px;
+    min-height: 120px;
+    text-align: center;
+}
+footer img{
+    width: 200px;
 }
 
 .background{
@@ -87,13 +112,164 @@ a:hover{
     min-height: 350px;
     display:table;
     clear:both;
+     
 }
 .screenshoot li {
     margin: 0 auto;
     max-width: 360px; 
 }
+
+.imgContainer{
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items:baseline;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+    .imgContainer{
+        margin-right: auto;
+        margin-left: auto;
+        padding: 20px;
+        max-width: 1055px;
+        width: auto;
+        display: -webkit-inline-block;; /* Safari */
+        -webkit-align-items: center; /* Safari 7.0+ */
+        display: inline-block;
+        align-items: center;
+    }
+}
 .imgContainer img{
     width: 100%;
+    margin-bottom: 10px;
+}
+
+.imgContainer p{
+    padding: 20px;
+}
+
+#info{
+    max-width: 700px;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+.plataforms{
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+#info img{
+    width: 15px;
+    margin: 0px; 
+    padding: 0px;
+}
+.purchase{
+    margin: 0px auto;
+    max-width: 250px; 
+}
+.purchase h1{
+    font-size: 3em;
+}
+#info button{
+    padding: 20px;
+    color: #fff;
+    background: #904040;
+    border: solid;
+    border-width: 10px;
+    border-color: #000;
+}
+#info button:hover{
+    padding: 20px;
+    color: #ddd8bc;
+    background: #aa8383;
+    border: solid;
+    border-width: 10px;
+    border-color: #000;
+}
+
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+}
+
+.features{
+    margin: 0px auto;
+    max-width: 400px; 
+    margin-bottom: 60px;
+}
+.features li{
+    max-width: 400px;
+    margin-bottom: 10px;
+    text-decoration: inherit;
+    display: block;
+}
+
+
+#quotes{
+    max-width: 700px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+#quotes h1{
+    font-size: 3em;
+}
+@media screen and (max-width: 600px) {
+    #quotes h1{
+        text-align: left;
+    }
+}
+#quotes p{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 60px;
+}
+
+.greateImg{
+    width: 400px;
+    margin-bottom: 80px;
+}
+
+.medioImg{
+     width: 200px;
+    margin-bottom: 80px;
+}
+
+#faq{
+    max-width: 700px;
+    margin: 0px auto;
+}
+#faq h3{
+    margin-top: 10px;
+    text-align: left;
+}
+#faq br{
+    margin: 20px;
+}
+#faq p{
+    padding-bottom: 60px;
+    border: solid;
+    border-color: #4b4b4b;
+    border-bottom-width: 3px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+#faq a{
+    text-decoration: underline;
+}
+.tag{
+    border: solid;
+    max-width: 450px;
+    margin: 0px auto;
+    border-color: #c7c7c7;
+    border-bottom-width: 4px;
 }
 
 .informations{
@@ -123,4 +299,20 @@ a:hover{
 }
 .available img{
     width: 100%;
+}
+
+.social{
+    margin: 0px auto;
+    margin-bottom: 80px;
+    width: 120px;
+    text-align: center;
+}
+.social img{
+    object-position: center;
+    width: 32px;
+    margin: auto;
+    min-width: 45px;
+}
+.social img:hover{
+    background-image: url(images/image1.png);
 }
