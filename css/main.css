@@ -1,6 +1,11 @@
  @font-face { font-family: Arcade; src: url('ARCADEPI.TTF'); } 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+@media screen and (max-width: 600px) {
+    body{
+        max-width: 600;
+        font-family: sans-serif;
+    }
+}
 body{
     background-color: #000;
     height: 100%;
