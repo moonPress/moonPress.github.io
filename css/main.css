@@ -9,35 +9,42 @@ body{
     margin-left: auto;
     font-family: monospace;
 }
+
 h1,h2,h3,h4 {
     text-align: center;
     font-size: 2.25em;
     padding: 0px;
     margin: 0px;
 }
+
 a {
     text-decoration: none;
     color: #fff;
     margin-right: 5px;
 }
+
 ul{
     margin: 0, auto;
     
 }
+
 li{
     list-style-type:none;
     text-decoration:none;
     display: inline-block;
     margin: 0, auto;
 }
+
 section {
     padding: 0px;
     margin: 0px;
 }
+
 div{
     padding: 0px;
     margin: 0px; 
 }
+
 header{
     z-index: 5;
     position: fixed;
@@ -46,36 +53,37 @@ header{
     height: 30px;
     text-shadow: none;
 }
+
 header li {
     display: inline-block;
     object-position: right;
     text-decoration: none;
     text-transform: capitalize;
 }
+
 header a:hover{
     text-decoration: overline;
 }
 
+/*===============================================================*/
 .background{
     background-image: url(images/back__.png);
     background-attachment: fixed;
     background-position:top center;
     background-size: 800px;
     background-repeat:repeat;
-    min-height: 1024px;
+    min-height: 780px;
 }
-
-.logo img {    
-    margin: 0 auto;
-    margin-bottom: 100px;
+.logo{
+    float:left;
+    margin-top: 200px;
+}
+.logo img {   
     width: 30%;
     min-width: 252px;
-    margin-bottom: 250px;
+    margin-bottom: 20px;
 }
 
-#apresentation{
-    margin-top: -800px;
-}
 
 .content{
     background-color: #0f1019;
@@ -88,13 +96,20 @@ header a:hover{
     width: 120px;
     text-align: center;
 }
+.social a{
+    
+}
 .social img{
     object-position: center;
+    background-color: #17192a;
+    border-radius: 50%;
+    border-style: hidden;
     width: 32px;
     margin: auto;
     min-width: 45px;
 }
 .social img:hover{
+    background-color: #484a57;
     background-image: url(images/image1.png);
 }
 
