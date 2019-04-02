@@ -89,6 +89,9 @@ header a:hover{
     background-color: #0f1019;
     padding: 20px;
 }
+.content a img {
+    width: 100%;
+}
 
 .social{
     margin: 0px auto;
