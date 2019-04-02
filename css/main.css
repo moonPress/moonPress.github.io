@@ -74,6 +74,7 @@ header a:hover{
     background-repeat:repeat;
     min-height: 780px;
 }
+
 .logo{
     float:left;
     margin-top: 200px;
@@ -83,7 +84,6 @@ header a:hover{
     min-width: 252px;
     margin-bottom: 20px;
 }
-
 
 .content{
     background-color: #0f1019;
@@ -96,9 +96,6 @@ header a:hover{
     width: 120px;
     text-align: center;
 }
-.social a{
-    
-}
 .social img{
     object-position: center;
     background-color: #17192a;
@@ -110,61 +107,6 @@ header a:hover{
 }
 .social img:hover{
     background-color: #484a57;
-    background-image: url(images/image1.png);
-}
-
-#games{
-    margin: 0px;
-    margin-right: auto;
-    margin-left: auto;
-    width: auto;
-    height: auto;
-}
-.games h1{
-    margin-bottom: 30px;
-}
-.game-images{
-    margin-right: auto;
-    margin-left: auto;
-    padding: 20px;
-    max-width: 1055px;
-    width: auto;
-    display: -webkit-flex; /* Safari */
-    -webkit-align-items: center; /* Safari 7.0+ */
-    display: flex;
-    align-items: center;
-}
-.game-images article{
-    margin: auto;
-    position: relative;
-    display: inline-block;
-}
-.game-images article img{
-    width: 100%;
-}
-.game-images article p{
-    text-align: center;
-}
-
-@media screen and (max-width: 480px) {
-    .game-images{
-        margin-right: auto;
-        margin-left: auto;
-        padding: 20px;
-        max-width: 1055px;
-        width: auto;
-        display: -webkit-inline-block;; /* Safari */
-        -webkit-align-items: center; /* Safari 7.0+ */
-        display: inline-block;
-        align-items: center;
-    }
-}
-
-.circle img{
-    max-width: 150px;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 2px;
 }
 
 footer{
