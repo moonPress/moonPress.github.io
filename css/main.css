@@ -124,7 +124,7 @@ footer a {
 }
 
 @media only screen and (max-device-width: 600px) {
-    <meta name="viewport" content="width=device-width, initial-scale=5">
+    <meta name="viewport" content="width=device-width, initial-scale=50">
     
     body{
         width: 100%;
