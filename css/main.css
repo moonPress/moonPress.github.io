@@ -124,41 +124,7 @@ footer a {
 }
 
 @media only screen and (max-device-width: 600px) {
-    <meta name="viewport" content="width=device-width, initial-scale=50">
-    
-    body{
-        width: 100%;
-        background-color: #d3257c;
-        height: 100%
-    }
-    
-    .background{
-        background-image: url(images/back__.png);
-        background-attachment: fixed;
-        background-position:top center;
-        background-size: 600px;
-        background-repeat:repeat;
-        height: 100%;
-    }
-    
-    .logo{
-        float:left;
-        margin-top: 200px;
-    }
-    .logo img {   
-        width: 30%;
-        min-width: 252px;
-        margin-bottom: 20px;
-    }
-
-    .content{
-        background-color: #0f1019;
-        padding: 20px;
-    }
-    .content a img {
-        width: 100%;
-    }
-    
+    <meta name="viewport" content="width=600, initial-scale=1">    
 }
 @media only screen and (max-device-width: 340px) {
     body{
