@@ -128,7 +128,18 @@ footer a {
     
     body{
         width: 100%;
+        height: 100%
     }
+    
+    .background{
+        background-image: url(images/back__.png);
+        background-attachment: fixed;
+        background-position:top center;
+        background-size: 600px;
+        background-repeat:repeat;
+        height: 100%;
+    }
+    
 }
 @media only screen and (max-device-width: 340px) {
     body{
