@@ -124,7 +124,15 @@ footer a {
 }
 
 @media only screen and (max-device-width: 600px) {
-    <meta name="viewport" content="width=300, initial-scale=1">    
+   @viewport{
+        zoom: 1.0;
+        width: extend-to-zoom;
+    }
+    
+    @-ms-viewport{
+        width: extend-to-zoom;
+        zoom: 1.0;
+    }
 }
 @media only screen and (max-device-width: 340px) {
     body{
