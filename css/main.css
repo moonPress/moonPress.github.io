@@ -1,5 +1,4 @@
- @font-face { font-family: Arcade; src: url('ARCADEPI.TTF'); } 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+ @font-face { font-family: Arcade; src: url('ARCADEPI.TTF'); }
 
 body{
     background-color: #000;
@@ -121,22 +120,4 @@ footer{
 }
 footer a {
     padding: 20px;
-}
-
-@media only screen and (max-device-width: 600px) {
-   @viewport{
-        zoom: 1.0;
-        width: extend-to-zoom;
-    }
-    
-    @-ms-viewport{
-        width: extend-to-zoom;
-        zoom: 1.0;
-    }
-}
-@media only screen and (max-device-width: 340px) {
-    body{
-        max-width: 340px;
-        background-color: #d3257c;
-    }
 }
