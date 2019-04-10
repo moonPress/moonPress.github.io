@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
         <title>moonRise Studio</title>
-        <meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-
-        <script type="text/javascript">
-        $(function(){
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-          var ww = ( $(window).width() < window.screen.width ) ? $(window).width() : window.screen.width; //get proper width
-          var mw = 480; // min width of site
-          var ratio =  ww / mw; //calculate ratio
-          if( ww < mw){ //smaller than minimum size
-           $('#Viewport').attr('content', 'initial-scale=' + ratio + ', maximum-scale=' + ratio + ', minimum-scale=' + ratio + ', user-scalable=yes, width=' + ww);
-          }else{ //regular size
-           $('#Viewport').attr('content', 'initial-scale=1.0, maximum-scale=2, minimum-scale=1.0, user-scalable=yes, width=' + ww);
-          }
-        }
-        });
-        </script>
-        
         <meta name="description" content="brazilian indie game studio">
         <meta name="keywords" content="indie-game,game-studio,brazilian-game-studio,moonrise-studio,moonrise,game brasileiro, desenvolvedora, dev, developer, game developer, indiegame, estudio de jogos, tell me you, moonRise, jogo brasileiro, gamedev brasil, brasilian game dev, desenvolvedora de jogos, moonrisestudio, moonriseStudio, moon rise studio">
         <link rel="stylesheet" href="css/main.css">        
