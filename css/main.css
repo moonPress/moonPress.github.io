@@ -124,7 +124,7 @@ footer a {
 }
 
 @media only screen and (max-device-width: 600px) {
-    <meta name="viewport" content="width=600, initial-scale=1">    
+    <meta name="viewport" content="width=300, initial-scale=1">    
 }
 @media only screen and (max-device-width: 340px) {
     body{
