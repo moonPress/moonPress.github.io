@@ -1,5 +1,5 @@
  @font-face { font-family: Arcade; src: url('ARCADEPI.TTF'); } 
-<meta name="viewport" content="width=device-width, initial-scale=2">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 body{
     background-color: #000;
@@ -124,9 +124,10 @@ footer a {
 }
 
 @media only screen and (max-device-width: 600px) {
+    <meta name="viewport" content="width=device-width, initial-scale=5">
+    
     body{
-        max-width: 600px;
-        background-color: #25d354;
+        width: 100%;
     }
 }
 @media only screen and (max-device-width: 340px) {
