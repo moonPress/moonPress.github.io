@@ -1,6 +1,6 @@
 @font-face { font-family: Arcade; src: url('ARCADEPI.TTF'); }
 
-body{
+body {
     background-color: #000;
     padding: 0px;
     margin: 0px;
@@ -23,12 +23,12 @@ a {
     margin-right: 5px;
 }
 
-ul{
+ul {
     margin: 0, auto;
     
 }
 
-li{
+li {
     list-style-type:none;
     text-decoration:none;
     display: inline-block;
@@ -40,12 +40,12 @@ section {
     margin: 0px;
 }
 
-div{
+div {
     padding: 0px;
     margin: 0px; 
 }
 
-header{
+header {
     z-index: 5;
     position: fixed;
     top: 10px;
@@ -61,41 +61,53 @@ header li {
     text-transform: capitalize;
 }
 
-header a:hover{
-    text-decoration: overline;
+header a:hover {
+    text-decoration: underline;
 }
 
 /*===============================================================*/
-.background{
+.background {
     background-image: url(images/back__.png);
     background-attachment: fixed;
     background-position:top center;
-    background-size: 800px;
+    display: inline-block;
     background-repeat:repeat;
-    min-height: 780px;
 }
 
-.logo{
-    float:left;
-    margin-top: 200px;
+.logo {
+    float: left;
+    margin-top: 13em;
+    margin-bottom: 13em;
 }
-.logo img {   
+.logo img {
     width: 30%;
     min-width: 252px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .content{
     background-color: #0f1019;
     padding: 20px;
 }
+
+.content a{
+    margin: 0px;
+    padding: 0px;
+}
+
+.content a h3{
+    margin: 5px;
+    font-size: 1.4em;
+}
 .content a img {
     width: 100%;
+    min-height: 100px;
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
 }
 
 .social{
     margin: 0px auto;
-    margin-bottom: 80px;
     width: 120px;
     text-align: center;
 }
