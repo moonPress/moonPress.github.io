@@ -1,7 +1,7 @@
 @font-face { font-family: Arcade; src: url('ARCADEPI.TTF'); }
 
 body {
-    background-color: #000;
+    background-color: #0f1019;
     padding: 0px;
     margin: 0px;
     color: #fff;
@@ -67,11 +67,11 @@ header a:hover {
 
 /*===============================================================*/
 .background {
-    background-image: url(images/back__.png);
+    background-image: url(images/background_quad_bigger.jpg);
     background-attachment: fixed;
     background-position:top center;
-    display: inline-block;
     background-repeat:repeat;
+    display: inline-block;
 }
 
 .logo {
